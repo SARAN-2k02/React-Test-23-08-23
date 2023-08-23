@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+.ShowBooks {
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 400px;
+  width: 30%;
+  background-color: aliceblue;
+  /* background-image: url(emoji2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 20px; */
+}
+.Main {
+  /* border: 2px solid rgb(49, 12, 214); */
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 60px;
+  height: 400px;
+}
+.main2 {
+  color: rgb(0, 42, 255);
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  /* border: 2px solid rgb(56, 189, 3); */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+  /* background-image: url(book1.jpg); */
+  background-image: url(book2.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px;
+}
+
+.title-input,
+.author-input {
+  line-height: 4dvh;
+  width: 60%;
+  border: 2px solid rgb(127, 153, 152);
+}
+.add-btn {
+  background-color: green;
+  border-radius: 10px;
+  height: 30px;
+  font-weight: bold;
+  border-style: none;
+  margin-top: 10px;
+}
+.add-btn:hover{
+  background-color: aqua;
+}
+.dlt-btn {
+  background-color: red;
+  border-radius: 10px;
+  border-style: none;
+  height: 25px;
+
+}
+.total {
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  margin-right: 20px;
+  background-color: rgb(51, 66, 222);
+  font-style: italic;
+  width: 30%;
+  margin-left: 400px;
+  border-radius: 10px;
+  /* border: 1px solid blue; */
+  /* border-radius: 10px; */
+}
+.list {
+  color: green;
+
+}
+.para{
+  color: rgb(110, 9, 9);
+  font-size: large;
+  font-style: oblique;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
